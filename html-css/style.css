@@ -1,0 +1,108 @@
+/* スタイルを書く場所 */
+
+/* ブラウザのデフォルトのCSSを消してる */
+* {
+  margin: 0;
+}
+
+/* 共通 */
+a {
+  color: #000;
+  text-decoration: none;
+}
+a:hover {
+  color: #000;
+  opacity: 0.6;
+}
+.section {
+  padding: 48px;
+}
+.section-title_container {
+  text-align: center;
+}
+.section-toptitle {
+  font-size: 38px;
+  text-align: center;
+  display: inline-block;
+  border-bottom: 1px solid #000;
+  margin-bottom: 42px;
+}
+
+.section-title {
+  font-size: 18px;
+}
+
+.section-text {
+  font-size: 14px;
+}
+
+/* ヘッダー */
+.header {
+  padding: 8px 64px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+.header-logo {
+  width: 100px;
+}
+.header-nav__list {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0;
+}
+.header-nav__text {
+  list-style: none;
+  margin-left: 40px;
+}
+
+.hero-img {
+  width: 100%;
+  max-height: 600px;
+  object-fit: cover;
+}
+
+.main-container {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+/* about */
+.about-card {
+  display: flex;
+  justify-content: center;
+  padding: 32px;
+}
+.about-card__img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.about-card__content {
+  margin-left: 48px;
+  width: 400px;
+}
+
+/* bicycle */
+.bicycle-card__container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bicycle-card__img {
+  width: 280px;
+}
+
+.bicycle-card {
+  text-align: center;
+}
+
+.bicycle-card__title {
+  margin-top: 18px;
+}
+.bicycle-card__content {
+  margin-left: 18px;
+}
